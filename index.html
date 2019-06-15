@@ -15,13 +15,123 @@
 
 <body>
 
-  <!-- /JavaScript via Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <header>
+
+    <!-- Navbar -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <a class="navbar-brand" href="#"><strong>Chris Harms</strong></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Appetizer</a>
+              <a class="dropdown-item" href="#">Main Course</a>
+              <a class="dropdown-item" href="#">Dessert</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">How To</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
 
+    <!-- Carousel -->
+    <!-- Original code from: https://mdbootstrap.com/docs/jquery/javascript/carousel/ -->
 
+    <div id="carousel-home" class="carousel slide carousel-fade d-none d-lg-block" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-home" data-slide-to="1"></li>
+        <li data-target="#carousel-home" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100" src="media/image/slider1.jpg" alt="First slide">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="h3-responsive">Profesional Chef</h3>
+            <p>With more than 10 years experience Chris Harms has come accross all sorts of cuisine. Have a look at his story and what inspires him.</p>
+            <a href="#" target="_blank"><button type="button" class="btn btn-default">Read More</button></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="view">
+            <img class="d-block w-100" src="media/image/slider2.jpg" alt="Second slide">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="view">
+            <img class="d-block w-100" src="media/image/slider3.jpg" alt="Third slide">
+            <div class="mask rgba-teal-strong"></div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="h3-responsive">Delicious Recipes</h3>
+            <p>Have a look at the different recipes and try them out!</p>
+            <a href="#" target="_blank"><button type="button" class="btn btn-default">Let's Go</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Controls-->
+
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+    <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+    </div>
+    
+    <!-- Carousel Replacement for Mobile Phones -->
+    
+     <div class="container-fluid p-0 m-0 d-lg-none">
+	    	<div class="row">
+	    		<div class="col-12">
+	    			<img class="d-block w-100" src="media/image/slider4.jpg">
+	    			<div class="carousel-caption d-none d-md-block">
+            <h3 class="h3-responsive">Delicious Recipes</h3>
+            <p>Have a look at the different recipes and try them out!</p>
+	    		</div>
+
+  </header>
+
+  <!-- Quote / Insperational Text -->
+
+  <blockquote class="blockquote text-center">
+    <p class="mb-0">"As I've always said, cooking is a philosophy, it's not a recipe - unless it's patry and then it's chemistry.</p> 
+    <p class="mb-0">So therefore it's not just teaching them how to cook, it's sharing your philosophy and your vision with them.</p> 
+    <p class="mb-0">It's as simple as that. A good chef is a pied piper, they follow him."</p>
+    <footer class="blockquote-footer"><strong> Marco Pierre White </strong></footer>
+  </blockquote>
+
+
+    <!-- /JavaScript via Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
@@ -31,16 +141,16 @@
 <footer class="page-footer font-small unique-color-dark">
   <div class="container-fluid text-center text-md-left mt-5">
     <div class="row mt-3">
-      
-<!--            About and Social Media links          -->
 
-<!--            About           -->
+      <!--            About and Social Media links          -->
+
+      <!--            About           -->
       <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <h6 class="text-uppercase font-weight-bold">About</h6>
         <hr class="blue-accent mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
         <p>Chris Harms is currently Head Chef at Chefz in Oosterhout, The Netherland. He has been cooking for over 10 years and would like to share some recipes with you.</p>
 
-<!--            Social Media links          -->
+        <!--            Social Media links          -->
         <ul class="list-inline social-links ">
           <li class="list-inline-item ">
             <a target="_blank " href="https://www.facebook.com/Fritos-catering-204930356197964/ ">
@@ -63,7 +173,7 @@
         </ul>
       </div>
 
-<!--            Quick Links          -->
+      <!--            Quick Links          -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
         <h6 class="text-uppercase font-weight-bold ">Quick Links</h6>
         <hr class="blue-accent accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
@@ -87,7 +197,7 @@
       </div>
 
 
-<!--            Contact Info          -->
+      <!--            Contact Info          -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
         <h6 class="text-uppercase font-weight-bold ">Contact Info</h6>
         <hr class="blue-accent accent-2 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px; ">
@@ -100,15 +210,15 @@
       </div>
     </div>
   </div>
-  
 
-<!--            Copy-Rights          -->
+
+  <!--            Copy-Rights          -->
   <div class="footer-copyright text-center py-3">
     <p>Copyright &copy 2019 All rights reserved | For educational use only | This webpage is made by
       <a target=_blank href="#">C. Marchena</a>
     </p>
   </div>
-  
+
 
 </footer>
 <!-- Footer -->
