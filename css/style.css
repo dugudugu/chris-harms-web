@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700|Nunito+Sans:100,200,300,400,500,600,700&display=swap');
+
+
+
+
+/* ----------------------------------------------------    Special ------------*/
+
+.text-uppercase {
+    text-transform: uppercase!important;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------    Footer ------------*/
+
+.page-footer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #f8f9fa !important;
+    background-color: #2e2e2e !important;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+    font-size: 18px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #007bff;
+    background-color: #2E2E2E;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #fafafa;
+    color: #000000;
+}
+
+.quick-links li a {
+    font-weight: 500;
+    color: #007bff;
+    padding-bottom: 20px;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.quick-links li a:hover {
+    color: #fafafa;
+}
+
+.footer-copyright p a {
+    font-weight: 500;
+    color: #007bff;
+    padding-bottom: 20px;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.footer-copyright p a:hover {
+    color: #fafafa;
+}
