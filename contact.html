@@ -19,7 +19,7 @@
 
     <!-- Navbar -->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="index.html"><strong>Chris Harms</strong></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,22 +28,11 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Appetizer</a>
-              <a class="dropdown-item" href="#">Main Course</a>
-              <a class="dropdown-item" href="#">Dessert</a>
-            </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="how-to.html">How To</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="recipe.html">Recipes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="contact.html">Contact</a>
@@ -58,17 +47,15 @@
       <div class="row">
         <div class="col-12">
           <img class="d-block w-100" src="media/image/contact.jpg">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 class="h3-responsive">Contact</h3>
-            <p>Have a question or suggestion feel free to fill out the contact form</p>
-          </div>
+          
         </div>
       </div>
     </div>
 
   </header>
 
-  <main>
+<!-- Contact Form -->
+
     <section class="contact-form">
       <div class="container">
         <form action="action_page.php">
@@ -79,15 +66,8 @@
           <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <label for="Message">Message</label>
+          <textarea id="Message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
           <input type="submit" value="Submit">
 
@@ -95,11 +75,7 @@
       </div>
     </section>
 
-  </main>
-
-
-
-
+ 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -157,12 +133,6 @@
             <a target="_blank " href="# ">Recipes</a>
           </li>
           <li>
-            <a target="_blank " href="how-to.html ">How To</a>
-          </li>
-          <li>
-            <a target="_blank " href="# ">Features</a>
-          </li>
-          <li>
             <a target="_blank " href="contact.html">Contact</a>
           </li>
         </ul>
@@ -187,13 +157,13 @@
   <!--            Copy-Rights          -->
   <div class="footer-copyright text-center py-3">
     <p>Copyright &copy 2019 All rights reserved | For educational use only | This webpage is made by
-      <a target=_blank href="#">C. Marchena</a>
+      <a target=_blank href="https://www.linkedin.com/in/cindymarchena/">C. Marchena</a>
     </p>
   </div>
 
 
 </footer>
-<!-- Footer -->
+
 
 
 
