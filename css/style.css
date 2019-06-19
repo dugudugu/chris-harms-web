@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Lato:|Nunito+Sans:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel:|Lato:|Nunito+Sans:100,200,300,400,500,600,700');
 
 html {
     font-family: 'Nunito Sans', sans-serif;
@@ -52,13 +52,16 @@ p {
 
 }
 
-
-/* ----------------------------------------------------    Carousel ------------*/
-
 .w-100 {
     width: 100%!important;
     height: 40em;
 }
+
+
+
+/* ----------------------------------------------------    Carousel ------------*/
+
+
 
 .carousel-caption {
     position: absolute;
