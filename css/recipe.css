@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Lato:|Nunito+Sans:100,200,300,400,500,600,700');
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* ----------------------------------------------------    Special ------------*/
+
+.text-uppercase {
+    text-transform: uppercase!important;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+}
+
+
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+/* ----------------------------------------------------    Navbar ------------*/
+
+.navbar {
+    background-color: #212529;
+    padding-left: 50px;
+}
+
+.navbar-collapse {
+    padding-right: 50px;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.navbar .nav-link {
+    font-family: 'Lato', sans-serif;
+    padding: 1.7rem 1rem;
+    outline: none !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: white !important;
+
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 40em;
+}
+
+
+/* ----------------------------------------------------    Main ------------*/
+
+
+
+.ingredients ul li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+
+.ingredients ul li:after {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------    Footer ------------*/
+
+.page-footer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #f8f9fa !important;
+    background-color: #2e2e2e !important;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+    font-size: 18px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #007bff;
+    background-color: #2E2E2E;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #fafafa;
+    color: #000000;
+}
+
+.quick-links li a {
+    font-weight: 500;
+    color: #007bff;
+    padding-bottom: 20px;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.quick-links li a:hover {
+    color: #fafafa;
+}
+
+.footer-copyright p a {
+    font-weight: 500;
+    color: #007bff;
+    padding-bottom: 20px;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.footer-copyright p a:hover {
+    color: #fafafa;
+}
+
+
+/* ----------------------------------------------------    Media Q ------------*/
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2e2e2e;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .w-100 {
+        width: 100%!important;
+        height: 25em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .column {
+    display: none;
+  }
+}
+
+@media (min-width: 768px)
+.col-md-5 {
+    flex: 0 0 30%;
+    max-width: 41.666667%;
+}
