@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Lato:|Nunito+Sans:100,200,300,400,500,600,700');
 
 html {
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
 }
 
@@ -26,14 +27,15 @@ p {
 /* ----------------------------------------------------    Navbar ------------*/
 
 .navbar {
-    background-color: transparent;
+    background-color: #212529;
+    padding-left: 50px;
 }
 
 .navbar-collapse {
+    padding-right: 50px;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     -ms-flex-positive: 1;
-    flex-grow: .5;
     -ms-flex-align: center;
     align-items: center;
 }
@@ -50,53 +52,25 @@ p {
 
 }
 
-.navbar .dropdown-menu {
-    font-size: 14px;
-    border-radius: 4px;
-    border: none;
-    -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
-    min-width: 13em;
-    margin-top: -10px;
+.w-100 {
+    width: 100%!important;
+    height: 40em;
 }
 
-.navbar .dropdown-menu .dropdown-item:hover {
-    background: #cfe2f7;
-    color: #000000;
-}
-
-.navbar .dropdown-menu a {
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
+/* ----------------------------------------------------    Contact Form ------------*/
 
 
-/* ----------------------------------------------------    Main ------------*/
 
-.carousel-caption {
-    position: absolute;
-    right: 1%;
-    bottom: 20px;
-    left: 1%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    /* width: 100%; */
-    background: rgba(0, 0, 0, 0.30);
-}
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
 
@@ -114,7 +88,7 @@ input[type=submit]:hover {
   background-color: #2e2e2e;
 }
 
-/* Add a background color and some padding around the form */
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
