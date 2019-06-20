@@ -3,6 +3,7 @@
 html {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
+
 }
 
 
@@ -56,6 +57,12 @@ h4 {
     height: 40em;
 }
 
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: initial;
+}
 
 /* ----------------------------------------------------    Main ------------*/
 
@@ -152,14 +159,9 @@ h4 {
 
 /* ----------------------------------------------------    Media Q ------------*/
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #2e2e2e;
-    }
-}
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .w-100 {
         width: 100%!important;
         height: 25em;
@@ -168,30 +170,49 @@ h4 {
 
 
 /* no images displayed*/
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 767px) {
     .main-ingredients {
-    display: none;
+        display: none;
     }
-  .col-md-3  iframe {
-      width: 70%;
-      height: 70%;
-      display: block !important;
-  }
-  .ingredients ul li {
+    iframe {
+        width: 90%;
+        height: 90%;
+        display: block !important;
+        margin: auto;
+    }
+    .ingredients ul li {
         float: none!important;
-    }
-}
-
-
-@media (max-width: 767px) {
-    .ingredients {
         width: 100%;
     }
 }
-@media (min-width: 768px) {
-    .col-md-3 iframe {
-        display: block!important;
-        float: none!important;
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    h4 {
+        text-align: center;
+    }
+    
+    .lead {
+        text-align: center;
+    }
+    
+    .col-md-8 {
+        flex: none!important;
+        max-width: fit-content;
+    }
+
+    .main-ingredients {
+        display: block;
+        margin-left: 12.5%;
+    }
+
+    iframe {
+        margin-left: 75%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .ingredients ul li {
+        float: left;
+        width: 50%;
     }
 }
-
