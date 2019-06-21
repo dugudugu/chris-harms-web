@@ -62,7 +62,6 @@ p {
 /* ----------------------------------------------------    Carousel ------------*/
 
 
-
 .carousel-caption {
     position: absolute;
     right: 1%;
@@ -95,6 +94,13 @@ p {
 .carousel-inner .carousel-caption .btn:hover {
     color: #007bff;
     border: 1px solid #fff;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: initial;
 }
 
 /* ----------------------------------------------------    Blockquote ------------*/
@@ -180,6 +186,12 @@ p {
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #2e2e2e;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
     }
 }
 
