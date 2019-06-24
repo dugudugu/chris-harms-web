@@ -34,7 +34,7 @@
             <a class="nav-link" href="recipe.html">Recipes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
+            <a class="nav-link active" href="contact.html">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -55,25 +55,26 @@
 
   <!-- Contact Form -->
 
-  <section class="contact-form">
-    <div class="container">
-      <form action="action_page.php">
-
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-        <label for="Message">Message</label>
-        <textarea id="Message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-
-      </form>
+  <section class="container-fluid">
+    <div class="row bg-color-contact">
+      <div class="col">
+        <div class="center-form">
+          <form>
+            <input type="text" name="first name" id="First Name" class="form-control" placeholder="First Name" required />
+            <input type="text" name="last name" id="Last Name" class="form-control" placeholder=" Last Name" required />
+            <input type="email" name="email" id="Email Adress" class="form-control" placeholder="Email" required />
+            <textarea rows="5" name="write message" id="Write Message" class="form-control" placeholder="Write Message" required></textarea>
+            <div class="form-row text-center">
+              <div class="col">
+                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-  </section>
 
+  </section>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -132,7 +133,7 @@
             <a href="recipe.html ">Recipes</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Contact Us</a>
           </li>
         </ul>
       </div>
