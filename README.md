@@ -6,11 +6,11 @@
 
 ## Introduction
 
-This webpage has been created as a base for a Chef named Chris Harms. He is a professional chef and been cooking for over 10 years.
+This web page has been created as a base for a Chef named Chris Harms. He is a professional chef and been cooking for over 10 years.
 Chris wants to share his experience an knowledge with everybody. He hopes that with this page that he can motivated people to cook or bake. The recipes given on the page can be done by everybody. 
 
 
-[View webpage in GitHub Pages](https://github.com/dugudugu/chris-harms-web)
+[View web page in GitHub Pages](https://github.com/dugudugu/chris-harms-web)
 
 
 ## UX
@@ -29,13 +29,13 @@ There are a total of 6 [recipes](https://dugudugu.github.io/chris-harms-web/reci
 These recipes are not only delicious, but they are also easy to make. And if you may have any questions or suggestions please feel free to [contact us](https://dugudugu.github.io/chris-harms-web/contact.html).
 
 #### User Stories:
-- As a vistor to the webpage he/she should be able to navigate the webpage efficiently. The user schould be able to go to the information the need right away whitout much clicking and reading. 
+- As a vistor to the web page he/she should be able to navigate the web page efficiently. The user schould be able to go to the information the need right away whitout much clicking and reading. 
 - As a vistor the user has the possiblity to get to know the chef. Learn more about his background and what inspired him to be a chef. The gives the user the opportunity to connect with the chef.
 - The recipes that have been chosen are for diffrent skillen cook, from the novice home cook to a beginner chef. 
 - The recipes are user friendly, they not only contain the ingredients that you would need but also a video.
-- Users of the webpage are able to contact the chef, with requests or comments about the webpage.
+- Users of the web page are able to contact the chef, with requests or comments about the web page.
 - At the bottom of the page, user can see a very short story about the chef. Users can also see links to follow on social media pages. If users decid to click the social media icon, a new brower page will open with the related social media links. 
-- Also at the bottom of the page, are quick links of the webpage, that open on the same page. 
+- Also at the bottom of the page, are quick links of the web page, that open on the same page. 
 - There is also contact information about the chef. 
 
 
@@ -47,7 +47,7 @@ These recipes are not only delicious, but they are also easy to make. And if you
 
 ## Features
 
-This webpage features a responsive *navigation bar*. The color of the navigation bar make the nav-links stand out.
+This web page features a responsive *navigation bar*. The color of the navigation bar make the nav-links stand out.
 Each page has an footer, which contains; *social media icons, quick links, contact information* and **copyright information**.
 
 Here are the **features** that can be found on the site and a short description of the pages;
@@ -88,8 +88,8 @@ When the submit button is clicked, the page just refresh to an empty form once a
 
 ## Future Features
 
-For future development of this webpage I would like to add/make the following changes:
-1. Add an How To section to the webpage
+For future development of this web page I would like to add/make the following changes:
+1. Add an How To section to the web page
 2. Insert a Mega-Menu into the nav-bar for the recipes and the how to
 3. Change all the current recipes to recipes from the chef
 4. Include more pictures into the carousel 
@@ -100,22 +100,22 @@ For future development of this webpage I would like to add/make the following ch
 ## Technologies Used
 
 The technologies I used are:
-* HTML5 is the markup language used for rendering the webpage.
+* HTML5 is the markup language used for rendering the web page.
 [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
-* Google Fonts is used to style the webpage fonts.
+* Google Fonts is used to style the web page fonts.
 [Google Fonts](https://fonts.google.com/)
 
 * Font Awesome is used for icons shown in the footer.
 [Font Awesome](https://fontawesome.com/)
 
-* CSS3 is the style sheet language used to style the HTML webpage.
+* CSS3 is the style sheet language used to style the HTML web page.
 [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 
 * CSS Matic is used for styling images.
 [CSS Matic](https://cssmatic.com/)
 
-* Bootstrap 4 Framework for the mobile responsiveness and grid layout of the webpage. 
+* Bootstrap 4 Framework for the mobile responsiveness and grid layout of the web page. 
 I also used Bootstrap's core CSS for most of the styling and layout, buttons and forms.
 [Bootstrap 4](https://getbootstrap.com/).
 
@@ -139,7 +139,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
       * User also needs to enter a domain name for email address. If user forgets to type domain name after '@' sign, there will be a reminder saying, "Please enter a part following '@'. 'userinput@ is incomplete"
       * If user does not type anything at the text area field, user will also be prompted to type something. User will get a reminder, "Please fill out this field".
    4. When clicking on the [Chris Harms](https://dugudugu.github.io/chris-harms-web/index.html) icon you will be send to the home page.
-- The webpage is responsive on majority of mobile devices. 
+- The web page is responsive on majority of mobile devices. 
 - Images are gettin squashed depending on the screen size. I still haven't figured out how to fix it.
       According to [this Slack post](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1557486039163800) I should give the div of the images the size that I want. And in the CSS I should style the
       `background-size: cover;` or `background-size: contain`.
@@ -149,7 +149,7 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 This project has been build in [Cloud9 IDE](https://aws.amazon.com/cloud9/), committed to Git and than pushed to [GitHub](https://github.com/).
 - This site can be deployed at [github](https://github.com/dugudugu/chris-harms-web).
 - There is no difference between the deployed version and the developed version.
-- Just click on the [link](https://github.com/dugudugu/chris-harms-web) to view the webpage.
+- Just click on the [link](https://github.com/dugudugu/chris-harms-web) to view the web page.
 
 
 ## Credits
@@ -185,10 +185,10 @@ He is trully a great chef, and he always wanted to have a site of himself. As I'
 
 Mr. Rahul Lakhanpal, I would like to let you know that I am grateful for your help, motivation and mentoring during this project.
 
-I would also like to thank the following people for the feedback to make the webpage better; C. Harms, A. Marchena, A. Lead and anyone else that I might have forgotten. 
+I would also like to thank the following people for the feedback to make the web page better; C. Harms, A. Marchena, A. Lead and anyone else that I might have forgotten. 
 
 
 
 #### Disclaimer
 
-The content of this webpage is for educational purposes only.
+The content of this web page is for educational purposes only.
