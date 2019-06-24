@@ -12,6 +12,7 @@ Chris wants to share his experience an knowledge with everybody. He hopes that w
 
 [View webpage in GitHub Pages](https://github.com/dugudugu/chris-harms-web)
 
+
 ## UX
 
 Altough a professional chef has allot of experience for these recipes, you will only need to know the basics.
@@ -27,18 +28,27 @@ There are a total of 6 [recipes](https://dugudugu.github.io/chris-harms-web/reci
 
 These recipes are not only delicious, but they are also easy to make. And if you may have any questions or suggestions please feel free to [contact us](https://dugudugu.github.io/chris-harms-web/contact.html).
 
+##### User stories:
+- As a vistor to the webpage he/she should be able to navigate the webpage efficiently. The user schould be able to go to the information the need right away whitout much clicking and reading. 
+- As a vistor the user has the possiblity to get to know the chef. Learn more about his background and what inspired him to be a chef. The gives the user the opportunity to connect with the chef.
+- The recipes that have been chosen are for diffrent skillen cook, from the novice home cook to a beginner chef. 
+- The recipes are user friendly, they not only contain the ingredients that you would need but also a video.
+- Users of the webpage are able to contact the chef, with requests or comments about the webpage.
+- At the bottom of the page, user can see a very short story about the chef. Users can also see links to follow on social media pages. If users decid to click the social media icon, a new brower page will open with the related social media links. 
+- Also at the bottom of the page, are quick links of the webpage, that open on the same page. 
+- There is also contact information about the chef. 
+
+
 <div align="center">
 	<a href="https://dugudugu.github.io/chris-harms-web/">
 	<img src="https://github.com/dugudugu/chris-harms-web/blob/master/media/image/about2.jpg"/></a>
 </div>
 
 
-
-
 ## Features
 
 This webpage features a responsive *navigation bar*. The color of the navigation bar make the nav-links stand out.
-Each page has an footer, which contains; *social media icons, quick links, contact information and **copyright information**.
+Each page has an footer, which contains; *social media icons, quick links, contact information* and **copyright information**.
 
 Here are the **features** that can be found on the site and a short description of the pages;
  - [Home](https://dugudugu.github.io/chris-harms-web/index.html)
@@ -171,22 +181,12 @@ This project has been build in [Cloud9 IDE](https://aws.amazon.com/cloud9/), com
 My partner, the Chef, has been there for me in every step and adventure that I taken. I wanted to do something special for him. 
 He is trully a great chef, and he always wanted to have a site of himself. As I'm learning how to do this, I wanted to use this opportunity to do this for him. 
 
-I would like to give thank
+Mr. Rahul Lakhanpal, I would like to let you know that I am grateful for your help, motivation and mentoring during this pproject.
+
+I would also like to thank the following people for the feedback to make the webpage better; C. Harms, A. Marchena, A. Lead and anyone else that I might have forgotten. 
 
 
-- I received inspiration for this project from my own experience of building and maintaining a WordPress webpage for this business in the past years. 
-- My mentor Simen Daehlin guided me towards attempting the special responsive header on the Home page.
 
 #### Disclaimer
 
 The content of this webpage is for educational purposes only.
-
-The genre of music I listen to are metal, rock and classical music. 
-I chose this band because I figured most people would find the songs from this band to be more agreeable than the others I like.
-I hope I did them justice and my webpage concept fits their music and ideals.
-
-Thank you to everyone that gave me feedback to make this webpage better - my mentor, Chris Z, Rachel, Simen, Shane, Jeroen, and Sipo all gave me constructive criticism that made my project better.
-
-My eternal gratitude to my supportive hubby that picked up my slack while I dedicated myself to this project. :heart_eyes:
-
-And my little missy that has been my inspiration to give my 100% in everything I do
