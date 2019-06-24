@@ -124,7 +124,8 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 
 ## Testing
 
-- Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. "Document checking completed. No errors or warnings to show."
+- Used [HTML Validator](https://validator.w3.org/) to check the markup on each page. "Document shows one error."
+   -  It is showing a Error stray start tag. <footer class="page-footer font-small unique-color-dark">; I don't know why I'm getting this error.
 - Used [CSS3 Validator](https://jigsaw.w3.org/css-validator/) to check CSS3 for any errors. "Congratulations! No Error Found. This document validates as CSS level 3 + SVG !"
 - I ran my page on [web.dev](https://web.dev/) and this is the [report](https://lighthouse-dot-webdotdevsite.appspot.com/lh/html?url=https://dugudugu.github.io/chris-harms-web/).
 
@@ -145,34 +146,34 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
 
 ## Deployment
 This project has been build in [Cloud9 IDE](https://aws.amazon.com/cloud9/), committed to Git and than pushed to [GitHub](https://github.com/).
-- This site can be deployed at github [Chris Harms](https://github.com/dugudugu/chris-harms-web)
-- There is no difference between the deployed version and the developed version
-- Just click on the [link](https://github.com/dugudugu/chris-harms-web) to view the webpage
+- This site can be deployed at github [Chris Harms](https://github.com/dugudugu/chris-harms-web).
+- There is no difference between the deployed version and the developed version.
+- Just click on the [link](https://github.com/dugudugu/chris-harms-web) to view the webpage.
 
 
 ## Credits
 
 #### Content
-- The text for the Home page was coppied from [Arden Campbell]https://twitter.com/ardencampbell/status/770667561335808000
+- The text for the Home page was coppied from [Arden Campbell](https://twitter.com/ardencampbell/status/770667561335808000).
 - The text fot the About page was written by [Cindy Marchena](https://www.linkedin.com/in/cindymarchena/) for [Chris Harms](https://www.linkedin.com/in/chris-harms-b99322104/).
 - The recipes used in the Recipes page are from:
-   - Tuna Tataki, [Corbeil Électroménagers](https://www.youtube.com/embed/erzs6-lWmPY)
-   - Sweet potato and coconut milk soup, [Recipe30](https://www.youtube.com/embed/8eKqFJmRYh4)
-   - Rigatoni Al Segreto, [Food Wishes](https://www.youtube.com/embed/o1xg1ntqSHU)
-   - Authentic Italian Aubergine Parmigiana, [Mile Zero Kitchen](https://www.youtube.com/embed/B9L3IMOIQ90)
-   - How to Make Tiramisu, [Food Wishes](https://www.youtube.com/embed/t9EAm1-Y2q0)
-   - Chocolate Lava Cake, [Home Cooking Adventures](https://www.youtube.com/embed/F3jJVS3NHf8)
+   - Tuna Tataki, [Corbeil Électroménagers](https://www.youtube.com/embed/erzs6-lWmPY).
+   - Sweet potato and coconut milk soup, [Recipe30](https://www.youtube.com/embed/8eKqFJmRYh4).
+   - Rigatoni Al Segreto, [Food Wishes](https://www.youtube.com/embed/o1xg1ntqSHU).
+   - Authentic Italian Aubergine Parmigiana, [Mile Zero Kitchen](https://www.youtube.com/embed/B9L3IMOIQ90).
+   - How to Make Tiramisu, [Food Wishes](https://www.youtube.com/embed/t9EAm1-Y2q0).
+   - Chocolate Lava Cake, [Home Cooking Adventures](https://www.youtube.com/embed/F3jJVS3NHf8).
 
 #### Media
-- The images used for the *home page* and *about* were provided by the [Chef](https://www.linkedin.com/in/chris-harms-b99322104/)
+- The images used for the *home page* and *about* were provided by the [Chef](https://www.linkedin.com/in/chris-harms-b99322104/).
 - Images displayed on the *recipes* and *contact us* page were from diffrent sources; which inclued the following:
-   - For the recipes header; [Great British Chef](https://gbc-cdn-public-media.azureedge.net/img25977.1423x711.jpg)
+   - For the recipes header; [Great British Chef](https://gbc-cdn-public-media.azureedge.net/img25977.1423x711.jpg).
    - For the video contents, please look at the above section named **Content** for the sources.
    - For the images of the ingredients, please look at the CSS file named [recipe.css](https://github.com/dugudugu/chris-harms-web/blob/master/css/recipe.css) for the sources.
-   - For the contact us header; [The Hampstead Kitchen](http://thehampsteadkitchen.com/application/themes/thk/images/home-slider/landingSlider_01.png) 
+   - For the contact us header; [The Hampstead Kitchen](http://thehampsteadkitchen.com/application/themes/thk/images/home-slider/landingSlider_01.png) .
 
 ### Code
-- For the Nabar, the original code was taken from [Material Design for Bootsrap](https://mdbootstrap.com/snippets/jquery/mdbootstrap/102606?action=full_screen_mode) and then edited.
+- For the Nabar and footer, the original code was taken from [Material Design for Bootsrap](https://mdbootstrap.com/) and then edited.
 - For the Carousel, the original code was taken from [Material Design for Bootsrap](https://mdbootstrap.com/docs/jquery/javascript/carousel/) and then edited.
 
 
