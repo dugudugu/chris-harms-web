@@ -28,7 +28,7 @@ There are a total of 6 [recipes](https://dugudugu.github.io/chris-harms-web/reci
 
 These recipes are not only delicious, but they are also easy to make. And if you may have any questions or suggestions please feel free to [contact us](https://dugudugu.github.io/chris-harms-web/contact.html).
 
-##### User stories:
+#### User Stories:
 - As a vistor to the webpage he/she should be able to navigate the webpage efficiently. The user schould be able to go to the information the need right away whitout much clicking and reading. 
 - As a vistor the user has the possiblity to get to know the chef. Learn more about his background and what inspired him to be a chef. The gives the user the opportunity to connect with the chef.
 - The recipes that have been chosen are for diffrent skillen cook, from the novice home cook to a beginner chef. 
@@ -68,6 +68,7 @@ The about section cointain a picture of the chef, and right next to it *three pa
 The recipe section has a nummerous repeat of almost the same layout, thus I will only explain this once. The diffrent between the layout is where the video is placed in comparrison with the text. 
 The recipe section contains in total **six** recipes, these recipes are **not** from the Chef, and all the credits have been included in the used links. 
 An example for the layout of the first recipe, [Tuna Tataki](https://dugudugu.github.io/chris-harms-web/recipe.html):
+
 For the **desktop** user:
 The text is on the left side which includes; a short intro to the dish, the ingredients needed and pictures of 3 main ingredients.
 There is also a video that is display for the recipe on the right hand side. 
@@ -87,7 +88,7 @@ When the submit button is clicked, the page just refresh to an empty form once a
 
 ## Future Features
 
-For future development of this webpage I would like to add/make following change:
+For future development of this webpage I would like to add/make the following changes:
 1. Add an How To section to the webpage
 2. Insert a Mega-Menu into the nav-bar for the recipes and the how to
 3. Change all the current recipes to recipes from the chef
@@ -138,15 +139,15 @@ I also used Bootstrap's core CSS for most of the styling and layout, buttons and
       * User also needs to enter a domain name for email address. If user forgets to type domain name after '@' sign, there will be a reminder saying, "Please enter a part following '@'. 'userinput@ is incomplete"
       * If user does not type anything at the text area field, user will also be prompted to type something. User will get a reminder, "Please fill out this field".
    4. When clicking on the [Chris Harms](https://dugudugu.github.io/chris-harms-web/index.html) icon you will be send to the home page.
- - The webpage is responsive on majority of mobile devices. 
- - Images are gettin squashed depending on the screen size. I still haven't figured out how to fix it.
+- The webpage is responsive on majority of mobile devices. 
+- Images are gettin squashed depending on the screen size. I still haven't figured out how to fix it.
       According to [this Slack post](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1557486039163800) I should give the div of the images the size that I want. And in the CSS I should style the
       `background-size: cover;` or `background-size: contain`.
 
 
 ## Deployment
 This project has been build in [Cloud9 IDE](https://aws.amazon.com/cloud9/), committed to Git and than pushed to [GitHub](https://github.com/).
-- This site can be deployed at github [Chris Harms](https://github.com/dugudugu/chris-harms-web).
+- This site can be deployed at [github](https://github.com/dugudugu/chris-harms-web).
 - There is no difference between the deployed version and the developed version.
 - Just click on the [link](https://github.com/dugudugu/chris-harms-web) to view the webpage.
 
@@ -182,7 +183,7 @@ This project has been build in [Cloud9 IDE](https://aws.amazon.com/cloud9/), com
 My partner, the Chef, has been there for me in every step and adventure that I taken. I wanted to do something special for him. 
 He is trully a great chef, and he always wanted to have a site of himself. As I'm learning how to do this, I wanted to use this opportunity to do this for him. 
 
-Mr. Rahul Lakhanpal, I would like to let you know that I am grateful for your help, motivation and mentoring during this pproject.
+Mr. Rahul Lakhanpal, I would like to let you know that I am grateful for your help, motivation and mentoring during this project.
 
 I would also like to thank the following people for the feedback to make the webpage better; C. Harms, A. Marchena, A. Lead and anyone else that I might have forgotten. 
 
